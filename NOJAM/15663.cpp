@@ -4,7 +4,6 @@ using namespace std;
 int N,M;
 int arr[10];
 bool visit[10];
-set<string> sat;
 void foo(int y, string str) {
   if (y==M) {
     cout << str << '\n';
