@@ -19,12 +19,12 @@ const int INF = 1e9;
 
 int n, k;
 vector<int> vec;
-map<int, pii> mp;
+map<int, int> mp;
 ll ans = 0;
 
 void left(int cur, int sum, ll bit) {
   if (cur == n / 2) {
-    mp[sum] = {1, bit};
+    mp[sum] = bit;
     return;
   }
   left(cur + 1, sum, bit);
@@ -33,10 +33,8 @@ void left(int cur, int sum, ll bit) {
 
 void right(int cur, int sum, ll bit) {
   if (cur == n) {
-    auto [x, y] = mp[k - sum];
-    if (x == 1) {
-      ans = bit | y;
-    }
+    auto it = mp.find(k - sum);
+    if (it != mp.end()) ans = bit | it->second;
     return;
   }
   right(cur + 1, sum, bit);
