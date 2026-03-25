@@ -14,7 +14,7 @@
 ## 제출 결과
 | 메모리 | 시간 | 언어 | 코드 길이 | 제출 일자 |
 |--------|------|------|----------|----------|
-| 15724 KB | 148 ms | Java 15 | 687 B | 2026년 3월 25일 23:19:20 |
+| 15652 KB | 152 ms | Java 15 | 687 B | 2026년 3월 25일 23:31:49 |
 
 ## 문제 설명
 Mamy dla was zadanie stare jak świat, ale w nieco odświeżonej wersji. Polega ono na dodaniu do siebie dwóch liczb, które tym razem mogą być dość duże. Gdyby tylko na Potyczkach Algorytmicznych było jakieś narzędzie, które pomaga radzić sobie z dużymi liczbami...
