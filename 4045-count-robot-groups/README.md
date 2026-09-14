@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/count-robot-groups">4382. Count Robot Groups</a></h2><h3>Medium</h3><hr><p>You are given a <span data-keyword="strictly-increasing-array">strictly increasing</span> integer array <code>position</code>, where <code>position[i]</code> is the initial position of the <code>i<sup>th</sup></code> robot at time <code>t = 0</code>.</p>
+<h2><a href="https://leetcode.com/problems/count-robot-groups">4045. Count Robot Groups</a></h2><h3>Medium</h3><hr><p>You are given a <span data-keyword="strictly-increasing-array">strictly increasing</span> integer array <code>position</code>, where <code>position[i]</code> is the initial position of the <code>i<sup>th</sup></code> robot at time <code>t = 0</code>.</p>
 
 <p>You are also given an integer array <code>speed</code>, where <code>speed[i]</code> is the constant speed of the <code>i<sup>th</sup></code> robot in units per second, and an integer <code>distance</code>.</p>
 
